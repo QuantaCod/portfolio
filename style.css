@@ -1,0 +1,100 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 100vh;
+    color:white;
+    background-image:url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-menu{
+  border-right: 1px solid red;
+  height:100vh;  
+  width: 300px;
+  background: transparent;
+  margin-left: 10px;
+
+}
+.img-1{
+    background-image: url("");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left:30px ;
+}
+.intro{
+    color: #f5f2f2;
+}
+
+.intro p{
+    color: #fdfbfb;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.intro:hover{
+    cursor:default;
+}
+ul{
+    height: 50px;
+    margin-top: 20px;
+}
+ul p{
+    text-align: center;
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: #fcf8f8;
+}
+a:hover{
+    border-bottom: 1px solid rgb(248, 9, 9);
+}
+footer{
+    color:#fdfafa;
+    bottom: 0;
+    left: 50px;
+    position: absolute;
+}
+footer:hover{
+    cursor: default;
+}
+.resume{
+    margin-top: 50px;
+}
+.info{
+    display: flex;
+    color: #fff;
+    height: 600px;
+    margin-left: 20px;
+    align-items: center;
+    border: none;
+
+}
+button{
+    margin-top: 150px;
+    margin-left: -160px;
+    background-color: #303030;
+    border: 0.5px solid #303030;
+}
+button a{
+    color:rgb(133, 77, 238);
+}
+iframe{
+    border: none;
+    height: auto;
+}
+.img1{
+    height: 600px;
+    width: auto;
+    display: flex;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+}
