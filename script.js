@@ -12,7 +12,7 @@ function myFunction() {
   } else {
     dots.style.display = "none";
     btnText.innerHTML = "Close";
-    moreText.style.display = "inline";
+    moreText.style.display = "block";
   }
 }
 function myFunct() {
@@ -31,18 +31,26 @@ function myFunct() {
    }
 }
 
+// function for blur
+function blur(){
+   var blur = document.getElementById('blur');
+   blur.classList.toggle('active');
+}
 // function for popup
 function pop(){
    var pop = document.getElementById('pop');
    pop.classList.toggle('active')
+   blur();
 }
 function toggle(){
    var popup = document.getElementById('popup');
    popup.classList.toggle('active')
+   blur();
  }
 function pop1(){
    var popup1 = document.getElementById('popup1');
    popup1.classList.toggle('active')
+   blur();
 }
 // function for scrolling button
 window.onscroll = function() {scrollFunction()};

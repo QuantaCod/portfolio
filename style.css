@@ -23,6 +23,11 @@ a {
 body {
   font-family: "Poppins", sans-serif;
 }
+.main#blur.active{
+  filter: blur(20px);
+  user-select: none;
+  pointer-events: none;
+}
 .logo{
   margin-left: 9px;
   font-size: 31px;
@@ -255,6 +260,7 @@ span{
 }
 #popup, #popup1{
   position: fixed;
+  height: 80%;
   top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -272,6 +278,8 @@ span{
   visibility: visible;
   opacity: 1;
   transition: 0.5s;
+  overflow: auto;
+  scrollbar-width: none;
 }
 .contact-container{
   min-height: 100vh;
